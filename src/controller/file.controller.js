@@ -1,6 +1,7 @@
 const uploadFile = require("../middleware/upload");
 const fs = require("fs");
-const baseUrl = "http://localhost:8080/files/";
+// const port = process.env.PORT || 3000;
+const baseUrl = "https://test-file-server.herokuapp.com/files/";
 
 const upload = async (req, res) => {
   try {
